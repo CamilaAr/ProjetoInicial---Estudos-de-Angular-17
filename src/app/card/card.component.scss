@@ -31,6 +31,12 @@
 :host ::ng-deep  #cancel-button .card-cancel-button{
     background-color: yellow !important;
 }
+
+:host ::ng-deep   .card-cancel-button{
+    background-color: blue !important;
+}
+
+
 /*
 ::ng-deep app-card-button-cancel  .card-cancel-button{
     background-color: yellow !important;

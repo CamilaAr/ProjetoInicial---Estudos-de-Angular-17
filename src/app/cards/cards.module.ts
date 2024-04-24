@@ -5,6 +5,7 @@ import { Card2Component } from '../card-2/card-2.component';
 import { CardButtonComponent } from '../card-button/card-button.component';
 import { Card2ButtonComponent } from '../card-2-button/card-2-button.component';
 import { CardButtonCancelComponent } from '../card-button-cancel/card-button-cancel.component';
+import {MatSliderModule} from '@angular/material/slider';
 
 
 
@@ -17,7 +18,9 @@ import { CardButtonCancelComponent } from '../card-button-cancel/card-button-can
     CardButtonCancelComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatSliderModule
+    
   ],
   exports: [
     CardComponent,
